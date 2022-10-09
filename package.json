@@ -6,6 +6,8 @@
     "cookie-parser": "^1.4.3",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
+    "mongoose":"^5.10.14",
+    "mongodb":"^3.6.0",
     "fcc-express-bground": "git+https://github.com/freeCodeCamp/fcc-express-bground-pkg.git"
   },
   "main": "server.js",

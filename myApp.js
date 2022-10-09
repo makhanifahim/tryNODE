@@ -1,7 +1,10 @@
+
 let express = require('express');
+
 let app = express();
 require('dotenv').config();
-
+let mongoose = require("mongoose");
+mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true })
 app.get("/",(res)=>{
     res.sendFile("hiiiii");
 });
